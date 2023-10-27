@@ -1,0 +1,62 @@
+What we are going to do in this app?:
+
+// we are going to master how to create a fullstack merge platform shopping app with react native, node.js and mongodb.
+
+// Primary goal is to explore react native, create a node.js server for our application and separate our stripe payment server(payment gateway which receives payments from all the popular banks etc. maybe) from our application server for reuseablity in other apps of this stripe payment server.
+
+// we are going to host our payment server on Railway to have one URL for our stripe hooks.
+
+// we are also going to explore other technologies like async storage, advanced mongodb concepts and master mongodb search indices.
+
+Main Features Of Our End Product:
+
+// Right on top we have location at left side and cart on right side. This location that we are showing on top is default location, if the user is not logged in then this location will be shown to him like in this case default location is Shanghai, China. And if you press on the cart button without signing in then the next screen that will be shown to us after tapping on the cart button will be login screen.
+
+// below above defined container we have Title defined in the next container.
+
+// below title container we have search container.
+
+// below search container we have horizontal advertising sliders which changes to the next index after every three seconds automatically
+
+// below sliders container we have products container and we can view all the products (products page) by tapping on 4window icon (category icon).
+
+// On top of Product page we have an animated title "All Products" which is moving from left to right automatically.
+
+// if we tap on search we are redirected to the search page and in the search tab of that search page if we type even the location name then we'll able to see products based on that typed location. We will be able to set products using the supplier title and any word in the description.
+
+// if we click on any product (after getting the results after typing the keyword in the search bar) then we'll be prompted (maybe redirected is also a correct word) to that clicked product's details page. 
+
+// In our product details page we have a counter ( means how much quantity of a product we want to buy)
+
+// then we have a profile page, if a user will visit profile page without login then he will see a login button in profile page.
+
+// we also have have a login page that we discussed above that when we click on cart button without login.
+
+// we also have signup page in which username, email, location and password are required.
+
+// in password input field we can show and hide password by clicking on eye icon.
+
+// when we'll sign up in this app then we will be prompted (or maybe we can say redirected in other words) to the login page.
+
+// in login page we have email and password input fields. When we put our email and password in our login page and then click on login button, if the backend is not ready it will show error in a dialogue box "oops something went wrong please try agin later" (or something like that) and an ok button will also be available on dialogue box maybe.
+
+// now suppose we are successfully loggedin in our account.
+
+// after login our location will be changed on top of home page with the location that we provided during sign up (from the default location).
+
+// after login if we now tap on cart button on top right of our home page, now the cart page will appear because we are logged in.
+
+// after login now if we tap on profile icon on bottom right on home page, now we will see the profile page with all the options like favorite, orders, cart, clear cache, delete account and log out etc. and also we'll see the username of that account which we used for log in.
+
+// we have favorites page in which we can add and delete our favorites products.
+
+// for payments we are using stripe.
+
+// when we click on buy now button in product details page, we will be prompted (or maybe redirect is also the word for this action) to a stripe page.
+
+// If we put email and our card details in that stripe page and click on pay, now that product for which we paid will be added in our orders page.
+
+// all the data that we'll store in our local storage will be stored with unique id's.
+
+
+

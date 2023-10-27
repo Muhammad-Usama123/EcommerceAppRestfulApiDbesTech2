@@ -1,0 +1,69 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "App/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "b9b65c039a1f10a5cb5e0726c6e7e18e98a8e517"
+    },
+    {
+      "path": "App/assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "66815173c5954271fac6b3ef51076f186577ad6f"
+    },
+    {
+      "path": "App/assets/fonts/Poppins-Light.ttf",
+      "sha1": "246982f0e815573f4915b4dd6f9861d56f147da2"
+    },
+    {
+      "path": "App/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "af7058373acbcf383dd114b8f9bbfb9faafd79eb"
+    },
+    {
+      "path": "App/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "01d319c533f62ea29f03b5df8adfd4d93d2d2a38"
+    },
+    {
+      "path": "App/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "20b39c8b480c946b084d6aa09f12bf10b2ec5aa6"
+    },
+    {
+      "path": "App/assets/images/bk.png",
+      "sha1": "d001a065fc37523dddefb7462d2e3240d79a9a2b"
+    },
+    {
+      "path": "App/assets/images/fn1.jpg",
+      "sha1": "6e6a34d378e2f9d84aa6c2fc3372f2cd9b05d426"
+    },
+    {
+      "path": "App/assets/images/fn2.jpg",
+      "sha1": "eb2a18886db1cce75fcdaf9b850bd295c9554f96"
+    },
+    {
+      "path": "App/assets/images/fn3.jpg",
+      "sha1": "9a581c26a633ccafbf44f41c8701b12b55d99aff"
+    },
+    {
+      "path": "App/assets/images/fn4.jpg",
+      "sha1": "9023741ebda3ea555e68a66420207dcc2416236e"
+    },
+    {
+      "path": "App/assets/images/fn5.jpg",
+      "sha1": "243e3f4fc8b40a0be1e5c576699c15048ca63a7b"
+    },
+    {
+      "path": "App/assets/images/pose23.png",
+      "sha1": "c4ea31f2a06a68c5ff6f1c679006dceffc90f28c"
+    },
+    {
+      "path": "App/assets/images/profile.jpeg",
+      "sha1": "4c28b2ccd8e569b372109c93f8bc92c1b7e7ecd9"
+    },
+    {
+      "path": "App/assets/images/space.jpg",
+      "sha1": "275980949a1af4b756e19c0ba95a5073e426110c"
+    },
+    {
+      "path": "App/assets/images/userdefault.png",
+      "sha1": "f82a4f713f769dea0db94bd7363510fce8f7a872"
+    }
+  ]
+}
