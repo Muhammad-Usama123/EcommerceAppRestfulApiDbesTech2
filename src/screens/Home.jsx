@@ -4,6 +4,9 @@ import {SafeAreaView} from 'react-native-safe-area-context'
 import styles from './home.styles'
 import { Ionicons, Fontisto } from 'react-native-vector-icons'
 import { Welcome } from '../components'
+import Carousel from '../components/home/Carousel'
+import Headings from '../components/home/Headings'
+import ProductRow from '../components/products/ProductRow'
 
 
 
@@ -28,6 +31,9 @@ const Home = () => {
       </View>
       <ScrollView>
         <Welcome />
+        <Carousel />
+        <Headings />
+        <ProductRow />
       </ScrollView>
     </SafeAreaView>
   )
