@@ -4,14 +4,12 @@ import styles from './productDetails.style'
 import {Ionicons, SimpleLineIcons, MaterialCommunityIcons, Fontisto} from 'react-native-vector-icons'
 import { COLORS, SIZES } from '../constants'
 import { useRoute } from '@react-navigation/native'
-COLORS
 
 const ProductDetails = ({navigation}) => {
 
     const route = useRoute();
 
     const {item} = route.params;
-    console.warn(item)
 
     const [count, setCount] = useState(1)
 

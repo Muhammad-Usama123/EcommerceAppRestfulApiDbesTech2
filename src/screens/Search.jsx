@@ -18,6 +18,7 @@ const Search = () => {
   const handleSearch = async () => { 
     try {
       const response = await axios.get(`http://localhost:3000/api/products/search/${searchKey}`)
+      console.log(response.data)
       setSearchResults(response.data)
     } catch (error) {
       console.log("failed to get the products", error);
