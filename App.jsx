@@ -5,7 +5,7 @@ import { useCallback } from 'react'
 import {NavigationContainer} from '@react-navigation/native'
 import {createNativeStackNavigator} from '@react-navigation/native-stack'
 import BottomTabNavigation from './src/navigation/BottomTabNavigation'
-import { Cart, NewRivals, ProductDetails, LoginPage } from './src/screens'
+import { Cart, NewRivals, ProductDetails, LoginPage, Favorites, Orders } from './src/screens'
 
 const Stack = createNativeStackNavigator();
 
@@ -55,6 +55,16 @@ if (!fontsLoaded) {
         <Stack.Screen 
         name='Login'
         component= {LoginPage}
+        options={{headerShown: false}}
+        />
+        <Stack.Screen 
+        name='Orders'
+        component= {Orders}
+        options={{headerShown: false}}
+        />
+        <Stack.Screen 
+        name='Favorites'
+        component= {Favorites}
         options={{headerShown: false}}
         />
       </Stack.Navigator>
