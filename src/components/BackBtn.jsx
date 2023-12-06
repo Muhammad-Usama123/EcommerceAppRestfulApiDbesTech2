@@ -1,11 +1,11 @@
 import { StyleSheet, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import {Ionicons} from 'react-native-vector-icons'
-import { COLORS } from '../constants'
+import { COLORS, SIZES } from '../constants'
 
 const BackBtn = ({onPress}) => {
   return (
-    <TouchableOpacity onPress={onPress}>
+    <TouchableOpacity onPress={onPress} style= {styles.backBtn}>
         <Ionicons 
         name='chevron-back-circle'
         size={30}
@@ -17,4 +17,11 @@ const BackBtn = ({onPress}) => {
 
 export default BackBtn;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  backBtn: {
+    alignItems: 'center',
+    position: 'absolute',
+    zIndex: 999,
+    top: SIZES.large-10
+  }
+})
